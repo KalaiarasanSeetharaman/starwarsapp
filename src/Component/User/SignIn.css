@@ -1,0 +1,66 @@
+body {
+    padding-top: 0rem;
+  }
+  .signinpage{
+      background-image: url('/images/signbg.jpg');
+      width: 100%;
+      min-height: 100vh;
+      height: 100%;
+      background-size: cover;
+      padding-bottom: 20px!important;
+      box-sizing: border-box;
+  }
+  .sign-logo-wrap{
+    text-align: center;
+    margin: 0px auto 20px;
+    display: block;
+  }
+  .formcontainer{
+    padding:30px;
+  }
+  .logincard{
+    width: 480px!important;
+    margin: auto!important;
+    background-color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 3px 3px -2px rgba(0,0,0,.12), 0 3px 4px 0 rgba(0,0,0,.14);
+  }
+  .loginCard_banner{
+    line-height: 2.4;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    margin: 0;
+    width: 100%;
+    font-weight: 700;
+    background-image: linear-gradient(270deg,#153356,#9c8a89);
+    height: 36px;
+  }
+  .loginCard__heading {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 33px;
+}
+.signinInfo{
+    color: #222;
+    margin: 33px 0 73px;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 16px;
+}
+.signinInfo a{
+    color:#153356;
+    font-weight: bold;
+}
+.signBtn{
+  background-color: #153356;
+  border-color: #153356;
+}
